@@ -32,9 +32,10 @@ public class StringProcessor {
     public static String splitAndCapitalize(String str) {
         StringBuilder sentence = new StringBuilder();
         sentence.append(str);
-        sentence.setCharAt(0, (char) (sentence.charAt(0) - 32));
+        if(Character.isLowerCase(sentence.charAt(0)))
+            sentence.setCharAt(0, (char) (sentence.charAt(0) - 32));
         for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == ' ') {
+            if (str.charAt(i) == ' '&&Character.isLowerCase(sentence.charAt(i+1))) {
                 sentence.setCharAt(i + 1, (char) (str.charAt(i + 1) - 32));
             }
         }
