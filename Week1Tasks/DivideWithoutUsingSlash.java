@@ -8,6 +8,7 @@ public class DivideWithoutUsingSlash {
         int number1 = s.nextInt();
         System.out.print("Enter number2: ");
         int number2 = s.nextInt();
+        s.close();
 
         //declaring and initialising variable to perform operations
         int remainder = number1;

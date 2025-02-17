@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class StringProcessor {
@@ -46,6 +45,7 @@ public class StringProcessor {
         Scanner s=new Scanner(System.in);
         String Sentence = s.nextLine();
         String subString = s.next();
+        s.close();
         System.out.println("Reversed String Output: " + reverseString(Sentence));
         System.out.println("Count Of Occurence Of SubString: " + countOccurences(Sentence, subString));
         System.out.println("Split And Capitalize Output: " + splitAndCapitalize(Sentence));

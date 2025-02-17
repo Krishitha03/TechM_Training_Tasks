@@ -12,6 +12,7 @@ public class ExceptionHandling {
             int number1 = s.nextInt();
             System.out.print("Enter number2: ");
             int number2 = s.nextInt();
+            s.close();
 
             //to calculate reciprocal
             int reciprocal = number2 / number1;

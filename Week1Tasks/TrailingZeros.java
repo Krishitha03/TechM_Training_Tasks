@@ -7,6 +7,7 @@ public class TrailingZeros {
         //the number for which factorial's trailing zeros are to be found
         System.out.print("Enter the number:");
         int n = s.nextInt();
+        s.close();
         //initailising variable which can be updated for each iteration
         int count=0;
         if(n<5){
