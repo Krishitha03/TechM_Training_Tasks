@@ -1,11 +1,8 @@
 import java.io.*;
 import java.util.List;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class LibraryManager extends LibrarySystem {
     private static final int MAX_BORROWED_BOOKS = 3;
-    private final Lock lock = new ReentrantLock();
 
     @Override
     public void addBook(Book book) {

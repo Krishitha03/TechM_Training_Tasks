@@ -7,7 +7,7 @@ public class Q2 {
     public static boolean searchForSub(String text,String sub){
         boolean bool=false;
         for (int i = 0; i <= text.length() - sub.length(); i++) {
-            for (int j = 0; j < sub.length();j++) {
+            for (int j = 0; j < sub.length();) {
                 if (text.charAt(i + j) != sub.charAt(j)) {
                     break;
                 }
@@ -21,7 +21,7 @@ public class Q2 {
     }
     public static void main(String[] args) {
         // Get the directory path
-        String directoryPath = "D:/TechMTasks/Week3Tasks";
+        String directoryPath = "D:\\TechM_Training_Tasks\\Week3Tasks\\IOStreams";
         String userSearch=".java";
         File directory = new File(directoryPath);
         // Check if the path is a directory and Get all files and directories in the specified directory
