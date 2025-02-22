@@ -79,7 +79,27 @@ nav {
     color: white;
     text-align: center;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 }
+
+.container button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:#e06a6a;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
 .container p{
     text-align:initial;
 }
@@ -192,11 +212,30 @@ p {
     color: #EEEEEE;
 }
 
-/* Speakers Section */
-#speakers {
-    padding: 50px 20px;
+/*count down*/
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.time-box {
+    background: #222;
+    padding: 15px 25px;
+    border-radius: 10px;
     text-align: center;
 }
+.time-box span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.label {
+    font-size: 1rem;
+    color: #bbb;
+}
+
+
+/* Speakers Section */
 
 .speaker-container {
     display: flex;
@@ -252,6 +291,96 @@ p {
 footer-icon{
     display: flex;
 }
+
+/* Popup Background */
+.ticket-popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+}
+
+/* Popup Box */
+.popup-box {
+    background-color: #fff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Close Button */
+.popup-close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+}
+
+.popup-close:hover {
+    color: #333;
+}
+
+/* Form Styling */
+.form-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button Styling */
+.btn {
+    background-color: #e06a6a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Close Button */
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 
 /* modal window */
 .modal {
@@ -362,6 +491,19 @@ footer-icon{
     .speaker-container {
         flex-direction: column;
         gap: 20px;
+    }
+    #countdown {
+        gap: 10px;
+    }
+    .time-box {
+        padding: 3px 7px;
+        border-radius: 8px;
+    }
+    .time-box span {
+        font-size: 1.5rem;
+    }
+    .label {
+        font-size: 0.5rem;
     }
 }
 
