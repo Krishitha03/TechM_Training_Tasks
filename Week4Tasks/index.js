@@ -37,7 +37,14 @@ window.addEventListener("click", (event) => {
         document.getElementById("speakerModal").style.display = "none";
     }
 });
+document.addEventListener("DOMContentLoaded", function () {
+    var navBtn = document.getElementById("buyTicketNav");
 
+    navBtn.onclick = function (event) {
+        event.preventDefault(); // Prevent default link action
+        alert("Ticket Booked Successfully!!!");
+    };
+});
 document.addEventListener("DOMContentLoaded", function () {
     const menuIcon = document.querySelector(".menu-icon");
     const navbar = document.querySelector(".navbar");
