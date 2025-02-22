@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Anthony Nocentino",
+        "image": "images/Anthony Nocentino.jpeg",
+        "details": "Anthony Nocentino is an accomplished technology professional, author, and speaker with over 20 years of experience in the IT industry. He is now a Principal Field Solution Architect at Pure Storage. He is a Microsoft Data Platform."
+    },
+    {
+        "name": "Jeffrey Snover",
+        "image": "images/Jeffrey Snover.jpeg",
+        "details": "Jeffrey Snover is a Distinguished Engineer at Google. Previously a Microsoft Technical Fellow, O365 AI Architect, Chief Architect for the Azure Storage and Edge Group and Windows Server. Snover is the inventor of Windows PowerShell."
+    },
+    {
+        "name": "Kellyn Gorman",
+        "image": "images/Kellyn Gorman.jpeg",
+        "details": "Kellyn Pot’Vin-Gorman is a Database and AI Advocate and Engineer with Redgate, with a long history in multi-platform technology. An Oracle ACE Director alumnus, she has been awarded over the years for her technical contributions and community volunteerism through many organizations, including a recognition as Woman in Tech of the Year for the state of Colorado."
+    }
+]
