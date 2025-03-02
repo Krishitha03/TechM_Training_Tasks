@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import DarkSwitch from "./components/DarkSwitch";
 import GameCard from "./components/GameCard";
 import StorePagination from "./components/StorePagination";
+import Footer from "./components/Footer";
 
 const apiKey = "31d2ba27487d416f961ac7c451a09890";
 
@@ -43,6 +44,7 @@ function App() {
 
         <StorePagination currentPage={currentPage} setCurrentPage={setCurrentPage} />
       </GridItem>
+      <Footer></Footer>
     </Grid>
   );
 }
