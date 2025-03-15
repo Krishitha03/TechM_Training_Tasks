@@ -6,7 +6,7 @@ import RegisterForm from "./components/RegisterForm";
 
 const App: React.FC = () => {
     const [showRegister, setShowRegister] = useState(false);
-
+    
     return (
         <div>
             <Navbar 
