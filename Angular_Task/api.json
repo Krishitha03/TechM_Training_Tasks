@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Music Concert",
+      "date": "2025-03-15",
+      "location": "New York",
+      "category": "concert",
+      "description": "Join us for an amazing night of music!"
+    },
+    {
+      "id": "2",
+      "title": "Marathon",
+      "date": "2025-04-10",
+      "location": "Los Angeles",
+      "category": "sports",
+      "description": "Run and compete with the best athletes."
+    },
+    {
+      "id": "3",
+      "title": "Tech Meetup",
+      "date": "2025-05-22",
+      "location": "San Francisco",
+      "category": "tech",
+      "description": "Network with industry professionals."
+    }
+  ]
+}
