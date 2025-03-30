@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437542196299",
+    "project_id": "smart-napper",
+    "storage_bucket": "smart-napper.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437542196299:android:a905563c426b81651a69ce",
+        "android_client_info": {
+          "package_name": "com.example.smart_napper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbyl8eLvkge41xFCuH6HFqelmxIBRSGnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

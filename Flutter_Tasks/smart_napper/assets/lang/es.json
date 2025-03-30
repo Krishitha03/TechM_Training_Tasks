@@ -1,0 +1,10 @@
+{
+    "app_title": "Dormilón Inteligente",
+    "select_nap_duration": "Selecciona la duración de la siesta",
+    "start_nap": "Iniciar Siesta",
+    "wake_up": "¡Despierta!",
+    "wake_up_time": "Hora de despertar",
+    "nap_started": "Siesta iniciada por {duration} minutos",
+    "nap_time_up": "¡Se acabó tu tiempo de siesta!"
+  }
+  

@@ -1,0 +1,10 @@
+{
+    "app_title": "Smart Napper",
+    "select_nap_duration": "Select Nap Duration",
+    "start_nap": "Start Nap",
+    "wake_up": "Wake Up!",
+    "wake_up_time": "Wake-up Time",
+    "nap_started": "Nap started for {duration} minutes",
+    "nap_time_up": "Your nap time is up!"
+  }
+  

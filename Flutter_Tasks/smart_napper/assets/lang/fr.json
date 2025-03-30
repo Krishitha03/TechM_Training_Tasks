@@ -1,0 +1,10 @@
+{
+    "app_title": "Smart Napper",
+    "select_nap_duration": "Sélectionnez la durée de la sieste",
+    "start_nap": "Commencer la sieste",
+    "wake_up_message": "Réveillez-vous ! Il est temps de vous lever.",
+    "ok": "OK",
+    "nap_started": "Sieste commencée pour {duration} minutes",
+    "wake_up_time": "Heure de réveil prévue : {time}"
+  }
+  

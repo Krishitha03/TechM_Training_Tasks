@@ -1,0 +1,10 @@
+{
+    "app_title": "Smart Napper",
+    "select_nap_duration": "Wählen Sie die Schlafdauer",
+    "start_nap": "Schlaf starten",
+    "wake_up_message": "Wach auf! Es ist Zeit aufzustehen.",
+    "ok": "OK",
+    "nap_started": "Schlaf gestartet für {duration} Minuten",
+    "wake_up_time": "Geplante Aufwachzeit: {time}"
+  }
+  
